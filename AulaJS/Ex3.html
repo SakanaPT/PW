@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>aaa</li>
+        <li>aaa</li>
+        <li>aaa</li>
+    </ul>
+    <button onclick="troca();">Troca</button>
+
+    <script>
+      // Seleciona todos os elementos <p>
+    function troca() {
+      var paragrafos = document.getElementsByTagName("li");
+
+      // Itera sobre a coleção de elementos <p> e modifica seu conteúdo
+      for (var i = 0; i < paragrafos.length; i++) {
+          paragrafos[i].innerHTML = i+1 + " - Este parágrafo foi modificado usando js!";
+      }
+    }
+    </script>
+</body>
+</html>
