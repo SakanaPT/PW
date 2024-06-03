@@ -1,0 +1,36 @@
+{
+    "atores": [
+        {
+            "id": 1,
+            "nome": "Leonardo DiCaprio",
+            "nascimento": "1974-11-11"
+        },
+        {
+            "id": 2,
+            "nome": "Kate Winslet",
+            "nascimento": "1975-10-05"
+        },
+        {
+            "id": 3,
+            "nome": "Tom Hanks",
+            "nascimento": "1956-07-09"
+        }
+    ],
+    "filmes": [
+        {
+            "titulo": "Titanic",
+            "ano": 1997,
+            "atores": [1, 2]
+        },
+        {
+            "titulo": "Forrest Gump",
+            "ano": 1994,
+            "atores": [3]
+        },
+        {
+            "titulo": "Inception",
+            "ano": 2010,
+            "atores": [1]
+        }
+    ]
+}

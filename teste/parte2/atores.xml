@@ -1,0 +1,43 @@
+<database>
+    <atores>
+        <ator>
+            <id>1</id>
+            <nome>Leonardo DiCaprio</nome>
+            <nascimento>1974-11-11</nascimento>
+        </ator>
+        <ator>
+            <id>2</id>
+            <nome>Kate Winslet</nome>
+            <nascimento>1975-10-05</nascimento>
+        </ator>
+        <ator>
+            <id>3</id>
+            <nome>Tom Hanks</nome>
+            <nascimento>1956-07-09</nascimento>
+        </ator>
+    </atores>
+    <filmes>
+        <filme>
+            <titulo>Titanic</titulo>
+            <ano>1997</ano>
+            <atores>
+                <atorId>1</atorId>
+                <atorId>2</atorId>
+            </atores>
+        </filme>
+        <filme>
+            <titulo>Forrest Gump</titulo>
+            <ano>1994</ano>
+            <atores>
+                <atorId>3</atorId>
+            </atores>
+        </filme>
+        <filme>
+            <titulo>Inception</titulo>
+            <ano>2010</ano>
+            <atores>
+                <atorId>1</atorId>
+            </atores>
+        </filme>
+    </filmes>
+</database>
